@@ -1,5 +1,6 @@
 HELP.md
 .gradle
+bin
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
@@ -13,12 +14,9 @@ build/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-*.idea
+.idea
 *.iws
 *.iml
 *.ipr
@@ -35,3 +33,9 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### PDF offers
+
+/pdf-offers
+/supplierImportFiles
+/technicalParamsImportFiles
